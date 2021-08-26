@@ -1,0 +1,9 @@
+(module mouse_bite (layer F.Cu) (tedit 6031A8F8)
+  (fp_text reference * (at 0 1.95) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value mouse_bite (at 0 -2.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+)
